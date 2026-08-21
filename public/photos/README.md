@@ -6,7 +6,7 @@ filename:
 
 | File | Where it appears | Notes |
 | --- | --- | --- |
-| `harbour-loft.jpg` | Full-bleed harbour band with the Loft (about) section | Landscape, ~3:2, ≥2000px wide. The loft interior with the harbour view. |
+| `harbour-loft.jpg` | Full-bleed hero (and the Loft about band if it helps) | Landscape, ~3:2, ≥2000px wide. The loft interior with the harbour view. |
 
 No faces are used anywhere on the page. Do not add partner portraits
 (`soren-*`, `chiara-*`, `frederik-*`); the people were removed from the public
