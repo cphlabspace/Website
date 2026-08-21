@@ -139,6 +139,65 @@ main {
   color: var(--ink);
 }
 
+/* ---------- Hero image (full-bleed) ---------- */
+.hero--image {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  display: flex;
+  align-items: flex-end;
+  min-height: min(90svh, 780px);
+  padding-top: clamp(5rem, 14vh, 10rem);
+  padding-bottom: clamp(2.5rem, 6vw, 4.5rem);
+}
+
+.hero__media {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  background: var(--ink);
+}
+
+.hero__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 42% 45%;
+  display: block;
+}
+
+.hero--image::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(
+    180deg,
+    rgba(22, 20, 18, 0.05) 0%,
+    rgba(22, 20, 18, 0.12) 40%,
+    rgba(22, 20, 18, 0.46) 73%,
+    rgba(22, 20, 18, 0.82) 100%
+  );
+}
+
+.hero__inner {
+  position: relative;
+  width: 100%;
+}
+
+.hero--image .eyebrow {
+  color: rgba(239, 232, 220, 0.82);
+}
+
+.hero--image .hero-title,
+.hero--image .hero-title em {
+  color: var(--paper);
+}
+
+.hero--image .hero-lede {
+  color: rgba(239, 232, 220, 0.92);
+}
+
 /* ---------- About (Loft) ---------- */
 .about-copy {
   margin: 0;
@@ -237,6 +296,13 @@ main {
   margin-left: auto;
   font-style: italic;
   color: var(--ink-faint);
+}
+
+.colophon-origin {
+  flex-basis: 100%;
+  margin-top: 0.5rem;
+  color: var(--ink-muted);
+  letter-spacing: 0.04em;
 }
 
 /* ---------- Responsive ---------- */

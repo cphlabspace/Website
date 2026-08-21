@@ -1,16 +1,13 @@
 # Photos
 
 The public page names the agency, not the people — there is no partner row and
-no partner portraits. Drop the one remaining photograph here with this exact
-filename:
+no partner portraits. No faces appear anywhere.
 
-| File | Where it appears | Notes |
+| File | Where it appears | Origin |
 | --- | --- | --- |
-| `harbour-loft.jpg` | Full-bleed hero (and the Loft about band if it helps) | Landscape, ~3:2, ≥2000px wide. The loft interior with the harbour view. |
+| `harbour-loft.jpg` | Full-bleed hero | Generated image (AI origin), 1536×1024. An empty Copenhagen harbour loft; not a photograph of the studio. |
 
-No faces are used anywhere on the page. Do not add partner portraits
-(`soren-*`, `chiara-*`, `frederik-*`); the people were removed from the public
-page and Frederik appears only as the director line in the Loft copy.
-
-JPEG or WebP are both fine — if you use WebP, change the extension in
-`index.html` to match.
+The page carries an honest origin mark in the footer: "AI origin. Pictures and
+page are generated." Do not add partner portraits or any faces. To swap the hero
+for a real photograph later, replace `harbour-loft.jpg` (keep the filename) and
+update the footer origin mark accordingly.
