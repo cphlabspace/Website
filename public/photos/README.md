@@ -1,17 +1,16 @@
 # Photos
 
-Drop the real photographs here with these exact filenames. The page wires them
-in automatically; no code change is needed beyond framing tweaks.
+The public page names the agency, not the people — there is no partner row and
+no partner portraits. Drop the one remaining photograph here with this exact
+filename:
 
 | File | Where it appears | Notes |
 | --- | --- | --- |
 | `harbour-loft.jpg` | Full-bleed harbour band with the Loft (about) section | Landscape, ~3:2, ≥2000px wide. The loft interior with the harbour view. |
-| `soren-holm.jpg` | Partners — Søren Holm (Prospecting) | Cropped to a 4:5 portrait via `object-fit: cover`; keep the face in the upper-centre. ≥1200px. |
-| `chiara-benedetti.jpg` | Partners — Chiara Benedetti (Amazon) | Same 4:5 portrait crop; keep the face in the upper-centre. ≥1200px. |
 
-Frederik Blegvad Andersen stays a typographic monogram (FBA) with a
-"Photograph to follow" note until his real photograph is supplied. Do not add a
-`frederik-*.jpg` until then.
+No faces are used anywhere on the page. Do not add partner portraits
+(`soren-*`, `chiara-*`, `frederik-*`); the people were removed from the public
+page and Frederik appears only as the director line in the Loft copy.
 
 JPEG or WebP are both fine — if you use WebP, change the extension in
 `index.html` to match.

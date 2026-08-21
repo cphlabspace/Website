@@ -177,70 +177,6 @@ main {
   color: var(--ink-muted);
 }
 
-/* ---------- Partners ---------- */
-.partners {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: clamp(1.5rem, 4vw, 3.5rem);
-}
-
-.partner {
-  min-width: 0;
-}
-
-.portrait {
-  position: relative;
-  aspect-ratio: 4 / 5;
-  display: grid;
-  place-items: center;
-  border: 1px solid var(--hairline-strong);
-  background:
-    repeating-linear-gradient(
-      -45deg,
-      transparent 0,
-      transparent 9px,
-      rgba(22, 20, 18, 0.035) 9px,
-      rgba(22, 20, 18, 0.035) 10px
-    );
-  margin-bottom: 1.25rem;
-}
-
-.monogram {
-  font-family: var(--serif);
-  font-size: clamp(2.5rem, 1.5rem + 4vw, 4rem);
-  letter-spacing: 0.04em;
-  color: rgba(22, 20, 18, 0.8);
-  line-height: 1;
-}
-
-.portrait-note {
-  position: absolute;
-  left: 0.85rem;
-  bottom: 0.75rem;
-  font-family: var(--sans);
-  font-style: italic;
-  font-size: 0.72rem;
-  letter-spacing: 0.04em;
-  color: var(--ink-muted);
-}
-
-.partner-name {
-  margin: 0 0 0.5rem;
-  font-family: var(--serif);
-  font-weight: 400;
-  font-size: clamp(1.5rem, 1.2rem + 1vw, 1.9rem);
-  line-height: 1.08;
-  letter-spacing: 0.005em;
-}
-
-.partner-note {
-  margin: 0;
-  max-width: 34ch;
-  color: var(--ink-muted);
-  font-size: 0.98rem;
-  line-height: 1.5;
-}
-
 /* ---------- Practices ---------- */
 .practices {
   margin: 0;
@@ -305,15 +241,6 @@ main {
 
 /* ---------- Responsive ---------- */
 @media (max-width: 760px) {
-  .partners {
-    grid-template-columns: 1fr;
-    gap: clamp(2rem, 8vw, 3rem);
-  }
-
-  .portrait {
-    aspect-ratio: 3 / 2;
-  }
-
   .practice {
     grid-template-columns: 1fr;
     gap: 0.6rem;
@@ -322,11 +249,5 @@ main {
   .colophon-set {
     margin-left: 0;
     flex-basis: 100%;
-  }
-}
-
-@media (min-width: 761px) {
-  .partner .portrait {
-    max-width: none;
   }
 }
