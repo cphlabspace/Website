@@ -5,7 +5,7 @@ in automatically; no code change is needed beyond framing tweaks.
 
 | File | Where it appears | Notes |
 | --- | --- | --- |
-| `harbour-loft.jpg` | Full-bleed harbour band beneath the hero | Landscape, ~3:2, ≥2000px wide. The loft interior with the harbour view. |
+| `harbour-loft.jpg` | Full-bleed harbour band with the Loft (about) section | Landscape, ~3:2, ≥2000px wide. The loft interior with the harbour view. |
 | `soren-holm.jpg` | Partners — Søren Holm (Prospecting) | Cropped to a 4:5 portrait via `object-fit: cover`; keep the face in the upper-centre. ≥1200px. |
 | `chiara-benedetti.jpg` | Partners — Chiara Benedetti (Amazon) | Same 4:5 portrait crop; keep the face in the upper-centre. ≥1200px. |
 
