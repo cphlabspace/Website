@@ -171,13 +171,21 @@ main {
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: linear-gradient(
-    180deg,
-    rgba(22, 20, 18, 0.05) 0%,
-    rgba(22, 20, 18, 0.12) 40%,
-    rgba(22, 20, 18, 0.46) 73%,
-    rgba(22, 20, 18, 0.82) 100%
-  );
+  background:
+    linear-gradient(
+      180deg,
+      rgba(22, 20, 18, 0.04) 0%,
+      rgba(22, 20, 18, 0.1) 38%,
+      rgba(22, 20, 18, 0.4) 70%,
+      rgba(22, 20, 18, 0.8) 100%
+    ),
+    linear-gradient(
+      78deg,
+      rgba(22, 20, 18, 0.66) 0%,
+      rgba(22, 20, 18, 0.42) 26%,
+      rgba(22, 20, 18, 0.12) 48%,
+      rgba(22, 20, 18, 0) 64%
+    );
 }
 
 .hero__inner {
@@ -186,16 +194,19 @@ main {
 }
 
 .hero--image .eyebrow {
-  color: rgba(239, 232, 220, 0.82);
+  color: rgba(239, 232, 220, 0.9);
+  text-shadow: 0 1px 18px rgba(11, 10, 9, 0.4);
 }
 
 .hero--image .hero-title,
 .hero--image .hero-title em {
   color: var(--paper);
+  text-shadow: 0 1px 2px rgba(11, 10, 9, 0.28), 0 2px 30px rgba(11, 10, 9, 0.35);
 }
 
 .hero--image .hero-lede {
-  color: rgba(239, 232, 220, 0.92);
+  color: rgba(239, 232, 220, 0.94);
+  text-shadow: 0 1px 16px rgba(11, 10, 9, 0.42);
 }
 
 /* ---------- About (Loft) ---------- */
